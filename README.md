@@ -1,1 +1,1 @@
-youtube clone to learn trpc.
+playground for trpc and other fancy stuff.
