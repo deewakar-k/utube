@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "dev:all": "concurrently \"bun run dev:webhook\" \"bun run dev\"",
     "dev": "next dev",
+    "dev:webhook": "ngrok http --domain=lizard-live-goshawk.ngrok-free.app 127.0.0.1:3000",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
